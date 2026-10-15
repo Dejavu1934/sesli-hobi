@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef } from 'react'
 import { io } from 'socket.io-client'
 
-const socket = io('https://sesli-hobi-server.onrender.com')
+const socket = io('https://sesli-hobi-9.onrender.com')
 
 const ODALAR = ['Muhabbet', 'Oyun', 'Müzik', 'Ders', 'Gece Tayfası']
 
